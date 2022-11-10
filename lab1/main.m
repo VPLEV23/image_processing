@@ -1,4 +1,4 @@
-img = imread('./bwtest.jpg');
+img = imread('./apple.png');
 
 [minimum, maximum, mean, standart_deviation, variance, snr] = image_statistical_analysis(img);
 
